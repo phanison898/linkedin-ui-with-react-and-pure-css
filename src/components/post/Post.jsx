@@ -68,12 +68,30 @@ const Post = ({ children }) => {
       </div>
       <div className="post__reactions">
         <div className="reactions">
-          <img src="/assets/1.svg" alt="" />
-          <img src="/assets/2.svg" alt="" />
-          <img src="/assets/3.svg" alt="" />
-          <img src="/assets/4.svg" alt="" />
-          <img src="/assets/5.svg" alt="" />
-          <img src="/assets/6.svg" alt="" />
+          <img
+            src="https://raw.githubusercontent.com/phanison898/github-drive/234f5f675ec08270d8103d02db10917651f027bc/1.svg"
+            alt="reaction icons"
+          />
+          <img
+            src="https://raw.githubusercontent.com/phanison898/github-drive/234f5f675ec08270d8103d02db10917651f027bc/2.svg"
+            alt="reaction icons"
+          />
+          <img
+            src="https://raw.githubusercontent.com/phanison898/github-drive/234f5f675ec08270d8103d02db10917651f027bc/3.svg"
+            alt="reaction icons"
+          />
+          <img
+            src="https://raw.githubusercontent.com/phanison898/github-drive/234f5f675ec08270d8103d02db10917651f027bc/4.svg"
+            alt="reaction icons"
+          />
+          <img
+            src="https://raw.githubusercontent.com/phanison898/github-drive/234f5f675ec08270d8103d02db10917651f027bc/5.svg"
+            alt="reaction icons"
+          />
+          <img
+            src="https://raw.githubusercontent.com/phanison898/github-drive/234f5f675ec08270d8103d02db10917651f027bc/6.svg"
+            alt="reaction icons"
+          />
         </div>
         <p>1 comment</p>
       </div>
