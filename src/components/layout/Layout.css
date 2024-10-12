@@ -1,0 +1,50 @@
+:root {
+  --primary-color: #f4f2ee;
+  --border-radius: 10px;
+  --box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.1);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Source Sans 3", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  overflow-x: hidden;
+}
+
+.layout {
+  width: 100vw;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--primary-color);
+  gap: 25px;
+}
+/* Style the scrollbar */
+body::-webkit-scrollbar {
+  width: 10px; /* Width of the scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 20px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #c1c1c1; /* The scroll thumb */
+  border-radius: 10px;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background: #a1a1a1; /* Thumb on hover */
+}
+
+body::-webkit-scrollbar-corner {
+  background: #ddd; /* Corner where both scrollbars meet */
+}

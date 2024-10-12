@@ -1,0 +1,15 @@
+.main {
+  width: 75%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /*-----------------------------------*/
+  align-items: stretch;
+  /*This mother fucking property is so important when you want to inherite the height of the parent into child.
+  But when we set parent height as min-height, then child can't inherit parent's height when we apply height:100% or height:inherit.
+  So in that case we need to set align-items:stretch so that all the children stretch to the height of the parent*/
+  /*-----------------------------------*/
+  gap: 30px;
+  margin-bottom: 50px;
+}

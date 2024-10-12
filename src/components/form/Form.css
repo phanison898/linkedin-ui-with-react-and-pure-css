@@ -1,0 +1,71 @@
+.form {
+  width: 100%;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+}
+
+.top {
+  width: 95%;
+  height: 50%;
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.top > img {
+  height: 80%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 100%;
+  margin-right: 10px;
+}
+
+.top > input {
+  flex: 1;
+  height: 80%;
+  border: 1px solid lightgrey;
+  border-radius: 50px;
+  padding: 0 10px;
+  outline: none;
+}
+
+.top > input::placeholder {
+  font-size: small;
+  font-weight: 700;
+}
+
+.bottom {
+  width: 95%;
+  height: 50%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.bottom > .type {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  outline: none;
+  cursor: pointer;
+}
+
+.bottom > .type > h3 {
+  font-size: medium;
+  font-weight: 700;
+  color: rgb(96, 96, 96);
+}
+
+.bottom > .type > svg:nth-child(1) {
+  font-size: medium;
+  font-weight: 700;
+  color: rgba(97, 0, 243, 0.5);
+}
